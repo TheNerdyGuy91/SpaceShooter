@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour {
 	void Start () 
 	{
 		rb = GetComponent<Rigidbody> ();
-		speed = 10;
+		speed = 10; //hard coding is bad
 		tilt = 4;
 	}
 	void Update()
